@@ -10,6 +10,6 @@ def lcm(x, y):
     return (x * y) // gcd(x, y)
 
 # 使用例
-a, b = map(int, input().split())
-print(gcd(a, b))
-print(lcm(a, b))
+x, y = map(int, input().split())
+print(gcd(x, y))
+print(lcm(x, y))
