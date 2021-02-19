@@ -1,15 +1,13 @@
 # x, yの最大公約数
-def gcd(x, y):
-    if (y == 0):
-        return x
-    else:
-        return gcd(y, x % y)
+def gcd(a, b):
+    if (a == 0): return b
+    else: return gcd(b % a, a)
 
 # x, yの最小公倍数
-def lcm(x, y):
-    return (x * y) // gcd(x, y)
+def lcm(a, b):
+    return (a * b) // gcd(a, b)
 
 # 使用例
-x, y = map(int, input().split())
-print(gcd(x, y))
-print(lcm(x, y))
+a, b = map(int, input().split())
+print(gcd(a, b))
+print(lcm(a, b))
