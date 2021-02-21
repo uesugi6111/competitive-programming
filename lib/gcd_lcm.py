@@ -1,9 +1,9 @@
-# x, yの最大公約数
+# a, bの最大公約数
 def gcd(a, b):
     if (a == 0): return b
     else: return gcd(b % a, a)
 
-# x, yの最小公倍数
+# a, bの最小公倍数
 def lcm(a, b):
     return (a * b) // gcd(a, b)
 
