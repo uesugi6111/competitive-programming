@@ -2,7 +2,7 @@ from collections import deque
 
 n, m = map(int, input().split())  # 頂点数と辺数
 
-# グラフ入力受取 (ここでは無向グラフを想定)
+# グラフ入力受け取り (ここでは無向グラフを想定)
 graph = [[] for _ in range(n)]
 for i in range(m):
     a, b = map(int, input().split())
