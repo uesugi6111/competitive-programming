@@ -1,6 +1,6 @@
 # a, bの最大公約数
 def gcd(a, b):
-    if (a == 0): return b
+    if a == 0: return b
     else: return gcd(b % a, a)
 
 # a, bの最小公倍数
