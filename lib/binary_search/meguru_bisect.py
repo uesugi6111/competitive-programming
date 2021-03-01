@@ -8,7 +8,7 @@ def meguru_bisect(ng, ok):
     # まず is_ok を定義する
     # ng, ok は とり得る最大の値 + 1, とり得る最小の値 - 1
     # 最小の ok を求める場合は ng, ok を逆にする
-    while (abs(ok - ng) > 1):
+    while abs(ok - ng) > 1:
         mid = (ok + ng) // 2
         if is_ok(mid):
             ok = mid
