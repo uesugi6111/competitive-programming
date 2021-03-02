@@ -6,6 +6,7 @@ def cumulative_sum(data):
         s[i + 1] = s[i] + data[i]
     return s
 
+
 # 使用例
 l = list(map(int, input().split()))
 cumsum = cumulative_sum(l)  # 累積和
