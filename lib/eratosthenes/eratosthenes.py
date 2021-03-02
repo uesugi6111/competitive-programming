@@ -8,6 +8,7 @@ def eratosthenes(n):
                 is_prime[j] = False
     return is_prime
 
+
 # 使用例
 v = int(input())
 print(eratosthenes(v))
