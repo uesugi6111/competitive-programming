@@ -16,6 +16,6 @@ def binary_search(data, value):
     return -1
 
 # 使用例
-data = list(map(int, input().split()))
-value = int(input())
-print(binary_search(data, value))
+l = list(map(int, input().split()))
+v = int(input())
+print(binary_search(l, v))
