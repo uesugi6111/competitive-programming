@@ -15,6 +15,7 @@ def binary_search(data, value):
             right = mid - 1
     return -1
 
+
 # 使用例
 l = list(map(int, input().split()))
 v = int(input())
