@@ -10,6 +10,7 @@ def rle(s):
         res += str(i - startpos)
     return res
 
+
 # 使用例
-s = input()
-print(rle(s))
+v = input()
+print(rle(v))
