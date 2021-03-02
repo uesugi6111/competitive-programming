@@ -3,6 +3,7 @@ def is_ok(arg):
     # 条件を満たすかどうか？問題ごとに定義
     pass
 
+
 def meguru_bisect(ng, ok):
     # 初期値の ng, ok を受け取り, is_ok を満たす最大(最小)の ok を返す
     # まず is_ok を定義する
