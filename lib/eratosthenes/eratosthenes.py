@@ -9,5 +9,5 @@ def eratosthenes(n):
     return is_prime
 
 # 使用例
-n=int(input())
-print(eratosthenes(n))
+v = int(input())
+print(eratosthenes(v))
