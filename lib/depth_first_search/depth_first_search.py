@@ -2,7 +2,7 @@
 def depth_first_search(g, s, v):
     s[v] = True  # v を訪問済みとする
     for nv in g[v]:
-        if s[nv]: continue  # すでに訪問済みの頂点は探索しない
+        if s[nv]: continue  # 既に訪問済みの頂点は探索しない
         depth_first_search(g, s, nv)  # 再帰的に探索
 
 
