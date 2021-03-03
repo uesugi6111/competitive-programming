@@ -20,7 +20,7 @@ pos.append(0)
 while len(pos) > 0:
     v = pos.popleft()  # キューから先頭頂点を取り出す
     for nv in graph[v]:
-        # すでに訪問済みの頂点は探索しない
+        # 既に訪問済みの頂点は探索しない
         if dist[nv] != -1:
             continue
         # 新たな頂点 nv について距離情報を更新してキューに追加する
