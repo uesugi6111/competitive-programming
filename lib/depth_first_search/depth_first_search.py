@@ -1,3 +1,7 @@
+# 再帰上限を増やす
+import sys
+sys.setrecursionlimit(10**6)
+
 # 深さ優先探索
 def depth_first_search(g, s, v):
     s[v] = True  # v を訪問済みとする
