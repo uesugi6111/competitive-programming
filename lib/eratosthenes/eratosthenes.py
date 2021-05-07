@@ -10,5 +10,5 @@ def eratosthenes(n):
 
 
 # 使用例
-v = int(input())
-print(eratosthenes(v))
+x = int(input())
+print(eratosthenes(x))
