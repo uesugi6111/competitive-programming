@@ -14,13 +14,13 @@ for i in range(m):
 visited = [False] * n  # 全頂点を False(未訪問) に初期化
 
 # 深さ優先探索
-def depth_first_search(v):
+def dfs(v):
     visited[v] = True  # v を訪問済みとする
     for nv in graph[v]:
         # 既に訪問済みの頂点は探索しない
         if visited[nv]:
             continue
-        depth_first_search(nv)  # 再帰的に探索
+        dfs(nv)  # 再帰的に探索
 
 
-depth_first_search(0)  # 頂点 0 をスタートとした探索
+dfs(0)  # 頂点 0 をスタートとした探索
