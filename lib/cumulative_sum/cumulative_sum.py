@@ -1,9 +1,9 @@
 # 累積和
-def cumulative_sum(array):
-    n = len(array)
+def cumulative_sum(arr):
+    n = len(arr)
     s = [0] * (n + 1)
     for i in range(n):
-        s[i + 1] = s[i] + array[i]
+        s[i + 1] = s[i] + arr[i]
     return s
 
 
