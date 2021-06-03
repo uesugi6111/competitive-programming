@@ -9,7 +9,7 @@ for i in range(m):
     graph[a].append(b)
     graph[b].append(a)
 
-dist = [-1] * n  # 全頂点を -1(未訪問) に初期化
+dist = [-1] * n  # 全頂点を -1 (未訪問) に初期化
 pos = deque()  # キュー
 
 # 初期条件 (頂点 0 を初期ノードとする)
