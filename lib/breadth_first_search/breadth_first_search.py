@@ -18,7 +18,7 @@ pos.append(0)
 
 # 幅優先探索 (キューが空になるまで探索を行う)
 while len(pos) > 0:
-    v = pos.popleft()  # キューから先頭頂点を取り出す
+    v = pos.popleft()  # キューから先頭の頂点を取り出す
     for nv in graph[v]:
         # 既に訪問済みの頂点は探索しない
         if dist[nv] != -1:
