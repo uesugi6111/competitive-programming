@@ -1,2 +1,2 @@
-# competitive_programming
+# competitive-programming
 Libraries for competitive programming.
