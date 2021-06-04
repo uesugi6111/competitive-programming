@@ -26,7 +26,7 @@ class UnionFind:
 n, q = map(int, input().split())
 uf = UnionFind(n)
 for i in range(q):
-    p, a, b = map(int,input().split())
+    p, a, b = map(int, input().split())
     if p == 0:
         uf.unite(a, b)
     else:
