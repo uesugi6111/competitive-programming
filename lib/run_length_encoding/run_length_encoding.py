@@ -1,10 +1,11 @@
 # ランレングス圧縮
 def rle(s):
     res = ""
+    length = len(s)
     i = 0
-    while i < len(s):
+    while i < length:
         startpos = i
-        while i < len(s) and s[startpos] == s[i]:
+        while i < length and s[startpos] == s[i]:
             i += 1
         res += s[startpos]
         res += str(i - startpos)
@@ -12,5 +13,5 @@ def rle(s):
 
 
 # 使用例
-v = input()
-print(rle(v))
+s = input()
+print(rle(s))
