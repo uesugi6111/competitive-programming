@@ -1,3 +1,5 @@
+from collections import Counter
+
 # 素因数分解
 def prime_factorization(n):
     i = 2
@@ -15,5 +17,4 @@ def prime_factorization(n):
 n = int(input())
 res = prime_factorization(n)
 print(res)
-from collections import Counter
 print(Counter(res))  # Counter({素因数 : 指数, ...})
