@@ -13,6 +13,7 @@ Libraries for competitive programming.
 - math
   - cumulative sum
   - cumulative sum 2d
+  - divisors
   - eratosthenes
   - gcd, lcm
   - is_prime
