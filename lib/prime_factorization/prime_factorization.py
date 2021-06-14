@@ -2,8 +2,8 @@ from collections import Counter
 
 # 素因数分解
 def prime_factorization(n):
-    i = 2
     arr = []
+    i = 2
     while i * i <= n:
         while n % i == 0:
             n //= i
