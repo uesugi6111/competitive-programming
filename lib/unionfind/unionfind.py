@@ -9,6 +9,8 @@ class UnionFind:
         else:
             self.p[x] = self.find(self.p[x])
             return self.p[x]
+    def same(self, x, y):
+        return self.find(x) == self.find(y)
     def unite(self, x, y):
         x = self.find(x)
         y = self.find(y)
@@ -19,8 +21,6 @@ class UnionFind:
         if self.r[x] == self.r[y]:
             self.r[y] += 1
         self.p[x] = y
-    def same(self, x, y):
-        return self.find(x) == self.find(y)
 
 # 使用例
 n, q = map(int, input().split())
