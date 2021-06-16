@@ -16,6 +16,7 @@ Libraries for competitive programming.
   - cumulative sum 2d
   - divisors
   - eratosthenes
+  - euler's phi function
   - gcd, lcm
   - is_prime
   - prime factorization
