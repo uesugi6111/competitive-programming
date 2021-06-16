@@ -11,6 +11,7 @@ Libraries for competitive programming.
   - dfs(rec ver.)
   - dfs(stack ver.)
 - math
+  - base 10 -> base x
   - cumulative sum
   - cumulative sum 2d
   - divisors
