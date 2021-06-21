@@ -1,7 +1,7 @@
 # a, bの最大公約数
 def gcd(a, b):
-    if a == 0: return b
-    else: return gcd(b % a, a)
+    if b == 0: return a
+    else: return gcd(b, a % b)
 
 # a, bの最小公倍数
 def lcm(a, b):
