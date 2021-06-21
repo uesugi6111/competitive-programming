@@ -17,6 +17,7 @@ Libraries for competitive programming.
   - divisors
   - eratosthenes
   - euler's phi function
+  - ext_gcd
   - gcd, lcm
   - is_prime
   - prime factorization
