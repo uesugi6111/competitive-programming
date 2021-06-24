@@ -20,4 +20,5 @@ Libraries for competitive programming.
   - ext_gcd
   - gcd, lcm
   - is_prime
+  - modinv
   - prime factorization
