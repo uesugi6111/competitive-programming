@@ -12,6 +12,7 @@ Libraries for competitive programming.
   - dfs(stack ver.)
 - math
   - combinatorics
+    - combination mod
     - enumerate inv
     - modinv
     - modpow
