@@ -23,6 +23,7 @@ Libraries for competitive programming.
     - divisors
     - eratosthenes
     - euler's phi function
+    - euler's phi function table
     - ext_gcd
     - gcd, lcm
     - is_prime
