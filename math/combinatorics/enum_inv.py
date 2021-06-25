@@ -1,8 +1,10 @@
 # 逆元列挙
 mx = 5 * 10 ** 5
 mod = 10 ** 9 + 7  # mod は素数であることが必要
+
 inv = [0] * (mx + 1)  # inv[i] : i の逆元
 inv[1] = 1
+
 for i in range(2, mx + 1):
     # mod // i * i + mod % i = mod
     # mod // i * i + mod % i ≡ 0
