@@ -11,14 +11,18 @@ Libraries for competitive programming.
   - dfs(rec ver.)
   - dfs(stack ver.)
 - math
-  - base 10 -> base x
-  - cumulative sum
-  - cumulative sum 2d
-  - divisors
-  - eratosthenes
-  - euler's phi function
-  - ext_gcd
-  - gcd, lcm
-  - is_prime
-  - modinv
-  - prime factorization
+  - combinatorics
+    - enumerate inv
+    - modinv
+    - modpow
+  - number_theory
+    - base 10 -> base x
+    - cumulative sum
+    - cumulative sum 2d
+    - divisors
+    - eratosthenes
+    - euler's phi function
+    - ext_gcd
+    - gcd, lcm
+    - is_prime
+    - prime factorization
