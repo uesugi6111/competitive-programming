@@ -28,7 +28,7 @@ while len(pos) > 0:
     for (nv, c) in graph[v]:
         # 未訪問のとき, または最短距離が更新可能なとき
         if dist[nv] == -1 or dist[nv] > dist[v] + c:
-            # 新たな頂点 nv について距離情報を更新してキューに追加する
+            # 新たな頂点 nv について距離情報を更新してヒープに追加する
             dist[nv] = dist[v] + c
             heapq.heappush(pos, (dist[nv], nv))
 
