@@ -10,6 +10,7 @@ Libraries for competitive programming.
   - bfs
   - dfs(rec ver.)
   - dfs(stack ver.)
+  - dijkstra
 - math
   - combinatorics
     - combination mod
