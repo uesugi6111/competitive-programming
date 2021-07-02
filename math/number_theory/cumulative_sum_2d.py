@@ -1,7 +1,4 @@
 # 2次元累積和
-# https://algo-logic.info/submatrix-sum-queries/ 参照
-# 自分で過去に解いた例1：https://atcoder.jp/contests/arc025/submissions/22967931
-
 def cumulative_sum_2d(arr):
     # cumsum_2d[i][j] = [0, i) * [0, j) の総和
     h = len(arr)
