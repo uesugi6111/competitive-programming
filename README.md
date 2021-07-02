@@ -11,7 +11,7 @@ Libraries for competitive programming.
   - dfs(rec ver.)
   - dfs(stack ver.)
   - dijkstra
-  - warshallfloyd
+  - warshall-floyd
 - math
   - combinatorics
     - combination mod
