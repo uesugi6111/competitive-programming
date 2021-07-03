@@ -11,6 +11,7 @@ Libraries for competitive programming.
   - dfs(rec ver.)
   - dfs(stack ver.)
   - dijkstra
+  - prim(minimum spanning tree)
   - warshall-floyd
 - math
   - combinatorics
