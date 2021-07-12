@@ -1,4 +1,4 @@
-# UnionFindTree
+# Union-Find Tree
 class UnionFind:
     def __init__(self, n):
         self.p = [-1] * n  # parent
