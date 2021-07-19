@@ -15,6 +15,7 @@ def init():
         fac[i] = fac[i - 1] * i % mod
         inv[i] = mod - inv[mod % i] * (mod // i) % mod
         finv[i] = finv[i - 1] * inv[i] % mod
+init()
 
 # 二項係数を計算
 def comb_mod(n, k):
@@ -24,5 +25,4 @@ def comb_mod(n, k):
 
 # 使用例
 n, k = map(int, input().split())
-init()
 print(comb_mod(n, k))
