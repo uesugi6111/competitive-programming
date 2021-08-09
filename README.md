@@ -3,7 +3,6 @@ Libraries for competitive programming.
 
 - algorithm
   - binary search
-  - rle
 - data_structure
   - unionfind
 - graph
@@ -31,3 +30,5 @@ Libraries for competitive programming.
     - gcd, lcm
     - is_prime
     - prime factorization
+- string
+  - rle
