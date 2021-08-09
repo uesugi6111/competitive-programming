@@ -30,5 +30,7 @@ Libraries for competitive programming.
     - gcd, lcm
     - is_prime
     - prime factorization
+- other
+  - compression
 - string
   - rle
