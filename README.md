@@ -27,6 +27,7 @@ Libraries for competitive programming.
     - euler's phi function
     - euler's phi function table
     - ext_gcd
+    - fast prime factorization(osa_k)
     - gcd, lcm
     - is_prime
     - prime factorization
