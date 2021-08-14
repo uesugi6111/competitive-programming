@@ -50,4 +50,4 @@ er = Eratosthenes(100)
 print(er.factorize(10))  # Counter({2: 1, 5: 1})
 
 # 約数列挙
-print(er.divisors(100))  # [1, 2, 5, 10]
+print(er.divisors(10))  # [1, 2, 5, 10]
