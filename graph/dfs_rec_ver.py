@@ -1,6 +1,6 @@
 # 再帰上限を増やす
 import sys
-sys.setrecursionlimit(10**6)
+sys.setrecursionlimit(10 ** 6)
 
 n, m = map(int, input().split())  # 頂点数と辺数
 
