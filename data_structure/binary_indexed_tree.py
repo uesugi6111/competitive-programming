@@ -4,15 +4,15 @@ class BIT:
         self.n = n
         self.tree = [0] * (n + 1)
     
-    # v[i] += x, i is 0-indexed
     def add(self, i, x):
+        """ v[i] += x, i is 0-indexed """
         i += 1
         while i <= self.n:
             self.tree[i] += x
             i += i & -i
     
-    # v[0] + ... + v[i], i is 0-indexed
     def sum(self, i):
+        """ v[0] + ... + v[i], i is 0-indexed """
         i += 1
         res = 0
         while i > 0:
