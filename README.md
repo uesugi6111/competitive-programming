@@ -4,13 +4,14 @@ Libraries for competitive programming.
 - algorithm
   - binary search
 - data_structure
-  - unionfind
+  - binary indexed tree (fenwick tree)
+  - union-find tree
 - graph
   - bfs
-  - dfs(rec ver.)
-  - dfs(stack ver.)
+  - dfs (rec ver.)
+  - dfs (stack ver.)
   - dijkstra
-  - prim(minimum spanning tree)
+  - prim (minimum spanning tree)
   - warshall-floyd
 - math
   - combinatorics
@@ -27,7 +28,7 @@ Libraries for competitive programming.
     - euler's phi function
     - euler's phi function table
     - ext_gcd
-    - fast prime factorization(osa_k), divisors
+    - fast prime factorization (osa_k), divisors
     - gcd, lcm
     - is_prime
     - prime factorization
